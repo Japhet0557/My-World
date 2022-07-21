@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+.main{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-content: center;
+}
+.logo-and-preorder-button--container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 1110px;
+    height: 58px;
+    align-content: space-between;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+.pre-order-button-right{
+    font-family: "barlow";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #162542;
+    width: 175px;
+    height: 58px;
+    border-radius: 10px;
+    border: 0px;
+}
+.pre-order-button-right:hover{
+    background-color: #162542;
+    color: #ffffff;
+}
+
+
+
+
+.Typemaster-keyboard--container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 1110px;
+    height: 480px;
+    padding-top: 60px;
+    align-content: space-between;
+}
+.Typemaster-keyboard--container-left{
+    width: 445px;
+    height: 350px;
+}
+.header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 56px;
+    color: #162542;
+}
+.content {
+    font-family: "barlow";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.pre-order-button-and-release{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    width: 350px;
+    height: 58px;
+}
+.Typemaster-keyboard--pre-order-button{
+    width: 175px;
+    height: 58px;
+    font-family: "barlow";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #F16718;
+    border-radius: 10px ;
+    border: 0px;
+}
+.Typemaster-keyboard--pre-order-button:hover{
+    background-color: #FF9B62;
+    color: #FFFFFF;
+}
+.Typemaster-keyboard--release{
+    font-family: "barlow";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #7B8BAD;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.Typemaster-keyboard--container-right{
+    width: 540px;
+    height: 480px;
+}
+.image-keyboard{
+    width: 540px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+
+
+.Mechanical-wireless-keyboard--container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 1110px;
+    height: 480px;
+    padding-top: 30px;
+}
+.Mechanical-wireless-keyboard--container-left{
+    width: 255px;
+    height: 480px;
+    background: #f16718;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard-with-image-phone-and-keyboard{
+    width: 255px;
+    height: 480px;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.2;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard--container-center{
+    width: 445px;
+    height: 480px;
+}
+.Mechanical-wireless-keyboard-with-image-glass-and-keyboard{
+    width: 445px;
+    height: 480px;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard--container-right{
+    width: 255px;
+    height: 265px; 
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.Mechanical-wireless-keyboard--container-right-header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    font-style: normal;
+    color: #162542;
+}
+.Mechanical-wireless-keyboard--container-right-content{
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    color: #7B8BAD;
+}
+
+
+
+.bottom-content-container{
+    width: 1110px;
+    height: 323px;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 150px;
+}
+.content-container{
+    width: 255px;
+    height: 232px;
+}
+.content-icon-container{
+    width: 65px;
+    height: 65px;
+    background: #f16718;
+    border-radius: 10px;
+}
+.content-icon{
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content-header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #162542;
+}
+.content-content{
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.footer{
+    width: 1110px;
+    height: auto;
+    font-family: "barlow";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    text-align: center;
+    padding-top: 80px;
+}
+
+ 
+
+
+
+
+@media screen and (max-width: 800px) {
+   .main{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    align-content: center;
+}
+.logo-and-preorder-button--container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 689px;
+    height: 58px;
+    align-content: space-between;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+.pre-order-button-right{
+    font-family: "barlow";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #162542;
+    width: 175px;
+    height: 58px;
+    border-radius: 10px;
+    border: 0px;
+}
+.pre-order-button-right:hover{
+    background-color: #162542;
+    color: #ffffff;
+}
+
+
+
+
+.Typemaster-keyboard--container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 689px;
+    height: 425px;
+    padding-top: 60px;
+    align-content: space-between;
+}
+.Typemaster-keyboard--container-left{
+    width: 339px;
+    height: 350px;
+}
+.header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 48px;
+    color: #162542;
+}
+.content {
+    font-family: "barlow";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.pre-order-button-and-release{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    width: 320px;
+    height: 58px;
+}
+.Typemaster-keyboard--pre-order-button{
+    width: 175px;
+    height: 58px;
+    font-family: "barlow";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #F16718;
+    border-radius: 10px ;
+    border: 0px;
+}
+.Typemaster-keyboard--pre-order-button:hover{
+    background-color: #FF9B62;
+    color: #FFFFFF;
+}
+.Typemaster-keyboard--release{
+    font-family: "barlow";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #7B8BAD;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.Typemaster-keyboard--container-right{
+    width: 478px;
+    height: 425px;
+    margin-left: 60px;
+}
+.image-keyboard{
+    width: 578px;
+    height: 425px;
+    border-radius: 20px;
+}
+
+    
+
+.Mechanical-wireless-keyboard--container{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-around;
+    width: 689px;
+    height: 500px;
+}
+.Mechanical-wireless-keyboard--container-left{
+    width: 214px;
+    height: 320px;
+    background: #f16718;
+    overflow: hidden;
+    border-radius: 20px;
+    order: 1;
+}
+.Mechanical-wireless-keyboard-with-image-phone-and-keyboard{
+    width: 214px;
+    height: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.2;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard--container-center{
+    width: 445px;
+    height: 320px;
+    order: 2;
+}
+.Mechanical-wireless-keyboard-with-image-glass-and-keyboard{
+    width: 445px;
+    height: 320px;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard--container-right{
+    width: 689px;
+    height: 108px; 
+    order: 3;
+    margin-left: 0px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Mechanical-wireless-keyboard--container-right-header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    font-style: normal;
+    color: #162542;
+    width: 255px;
+    height: 108px;
+    margin-top: 0px;
+    
+}
+.Mechanical-wireless-keyboard--container-right-content{
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    color: #7B8BAD;
+    width: 398px;
+    height: 78px;
+   
+}
+    
+    
+    
+.bottom-content-container{
+    width: 689px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.content-container{
+    width: 281px;
+    height: 289px;
+}
+.content-icon-container{
+    width: 65px;
+    height: 65px;
+    background: #f16718;
+    border-radius: 10px;
+}
+.content-icon{
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content-header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #162542;
+}
+.content-content{
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.footer{
+    width: 689px;
+    height: auto;
+    font-family: "barlow";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    text-align: center;
+    padding-top: 80px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+    .main{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    align-content: center;
+}
+.logo-and-preorder-button--container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 327px;
+    height: 48px;
+    align-content: space-between;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+.pre-order-button-right{
+    font-family: "barlow";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #162542;
+    width: 151px;
+    height: 48px;
+    border-radius: 10px;
+    border: 0px;
+}
+.pre-order-button-right:hover{
+    background-color: #162542;
+    color: #ffffff;
+}
+
+
+
+
+.Typemaster-keyboard--container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 327px;
+    height: 700px;
+    padding-top: 0px;
+    align-content: space-between;
+}
+.Typemaster-keyboard--container-left{
+    width: 327px;
+    height: 350px;
+}
+.header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 48px;
+    color: #162542;
+}
+.content {
+    font-family: "barlow";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.pre-order-button-and-release{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    width: 310px;
+    height: 48px;
+}
+.Typemaster-keyboard--pre-order-button{
+    width: 150px;
+    height: 48px;
+    font-family: "barlow";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #F16718;
+    border-radius: 10px ;
+    border: 0px;
+}
+.Typemaster-keyboard--pre-order-button:hover{
+    background-color: #FF9B62;
+    color: #FFFFFF;
+}
+.Typemaster-keyboard--release{
+    font-family: "barlow";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #7B8BAD;
+    text-transform: uppercase;
+    margin-top: 12px;
+    width: 127px;
+    height: 26px;
+}
+.Typemaster-keyboard--container-right{
+    width: 372px;
+    height: 331px;
+    margin-left: 0px;
+}
+.image-keyboard{
+    width: 372px;
+    height: 331px;
+    border-radius: 20px;
+}
+
+    
+
+.Mechanical-wireless-keyboard--container{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;
+    width: 327px;
+    height: 500px;
+}
+.Mechanical-wireless-keyboard--container-left{
+    width: 129px;
+    height: 193px;
+    background: #f16718;
+    overflow: hidden;
+    border-radius: 20px;
+    order: 1;
+    margin-left: -40px;
+}
+.Mechanical-wireless-keyboard-with-image-phone-and-keyboard{
+    width: 129px;
+    height: 193px;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.2;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard--container-center{
+    width: 220px;
+    height: 193px;
+    order: 2;
+}
+.Mechanical-wireless-keyboard-with-image-glass-and-keyboard{
+    width: 220px;
+    height: 193px;
+    border-radius: 20px;
+}
+.Mechanical-wireless-keyboard--container-right{
+    width: 327px;
+    height: 250px; 
+    order: 3;
+    margin-left: 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.Mechanical-wireless-keyboard--container-right-header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    font-style: normal;
+    color: #162542;
+    width: 255px;
+    height: 108px;
+    margin-top: 0px;
+    margin-left: 40px; 
+}
+.Mechanical-wireless-keyboard--container-right-content{
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    color: #7B8BAD;
+    width: 327px;
+    height: 104px;
+   
+}
+    
+    
+    
+.bottom-content-container{
+    width: 327px;
+    height: 1300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.content-container{
+    width: 327px;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+}
+.content-icon-container{
+    width: 65px;
+    height: 65px;
+    background: #f16718;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+.content-icon{
+    width: 25px;
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 20px;
+}
+.content-header{
+    font-family: "barlow";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #162542;
+    width: 327px;
+    height: 56px;
+    margin-top: 40px;
+}
+.content-content{
+    font-family: "barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    width: 327px;
+    height: 104px; 
+    margin-top: 20px;
+}
+.footer{
+    width: 327px;
+    height: auto;
+    font-family: "barlow";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    text-align: center;
+    margin-top: 65px;
+}
+}
+
+
+
+
